@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
 def call() {
-     echo 'building project...'
+     echo "building project..."
 }
