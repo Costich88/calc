@@ -1,5 +1,5 @@
 #!/usr/bin/env groovy
 
 def call(body) {
-     echo "running tests..."
+     sh script: "make", returnStdout: true
 }
